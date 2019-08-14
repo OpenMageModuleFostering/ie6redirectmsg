@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>ie6redirectmsg</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://www.evobilis.com">Evobilis</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>IE6 Redirection Module</description>
     <notes>IE6 Redirection Module</notes>
     <authors><author><name>Mahesh Komarraju</name><user>Mahesh</user><email>mahesh.komarraju@evobilis.com</email></author><author><name>Cyrus</name><user>aumanwai</user><email>cyrus.au@evobilis.com</email></author></authors>
-    <date>2013-02-28</date>
-    <time>04:15:09</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Evobilis_IE6Redirect.xml" hash="de98dd0d9d3fd27071335aeeef77d612"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ie6redirect.xml" hash=""/></dir></dir></dir></dir></target></contents>
+    <date>2013-03-03</date>
+    <time>09:37:52</time>
+    <contents><target name="magelocal"><dir name="Evobilis"><dir name="IE6Redirect"><dir name="Block"><file name="IE6Redirect.php" hash="4bbcbb75c261379c16395ddf15d39d2b"/><file name="Invite.php" hash="4f059761604943c94f60215a070404a6"/></dir><dir name="Model"><file name="IE6Redirect.php" hash="c782774026037fc8f04d4a057f6de4cf"/></dir><dir name="controllers"><file name="IndexController.php" hash="94ac486c651fa99b9aa62c67e9f494b5"/></dir><dir name="etc"><file name="config.xml" hash="bb85fe89e5d6950da3e30730c113aaeb"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Evobilis_IE6Redirect.xml" hash="de98dd0d9d3fd27071335aeeef77d612"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ie6redirect.xml" hash="0342432f556e8c386c0dca4da4ac8dd9"/></dir><dir name="template"><dir name="ie6redirect"><file name="index.phtml" hash="c949111ae4c12ec61dfb40ef9ae760dd"/><file name="script.phtml" hash="93e744dfa7542fb98c6b087a2386c42b"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>5.4.6</max></php></required></dependencies>
 </package>

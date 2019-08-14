@@ -1,0 +1,10 @@
+<?
+$module=Mage::app()->getRequest()->getModuleName();
+if($module!='ie6redirect'):
+?>
+<!--[if IE 6]>
+  <script>
+  window.location='<?=Mage::getBaseUrl();?>ie6redirect/';
+  </script>
+<![endif]-->
+<? endif; ?>

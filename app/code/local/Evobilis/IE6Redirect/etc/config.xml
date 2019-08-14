@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<config>
+	<global>
+		<modules>
+                <evobilis_ie6redirect>
+                        <version>0.1.0</version>
+                </evobilis_ie6redirect>
+        </modules>
+		
+		
+		
+	<blocks>
+            <ie6redirect>
+                <rewrite>
+		 <ie6redirect>Evobilis_IE6Redirect_Block_IE6Redirect</ie6redirect>
+		</rewrite>
+            </ie6redirect>
+	 </blocks>
+	 
+	    <models>
+            <mie6redirect>
+                <class>Evobilis_IE6Redirect_Model</class>
+            </mie6redirect>
+    </models>
+
+        </global>
+	   <frontend>
+	   <translate>
+    <modules>
+        <Evobilis_IE6Redirect>
+            <files>
+                <default>Evobilis_IE6Redirect.csv</default>
+            </files>
+        </Evobilis_IE6Redirect>
+    </modules>
+</translate>
+	   
+                <routers>
+                        <ie6redirect>
+                                <use>standard</use>
+                                <args>
+                                      <module>Evobilis_IE6Redirect</module>
+                                      <frontName>ie6redirect</frontName>
+                                </args>
+                        </ie6redirect>
+						
+						</routers>
+		<layout>
+			<updates>
+				<ie6redirect>
+		   		      <file>ie6redirect.xml</file>
+				</ie6redirect>
+			</updates>
+       		</layout>
+        </frontend>
+</config>
