@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+         <modules>
+                <Evobilis_IE6Redirect>
+                        <active>true</active>
+                        <codePool>local</codePool>
+                </Evobilis_IE6Redirect>
+         </modules>
+</config>

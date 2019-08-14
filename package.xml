@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ie6redirectmsg</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.evobilis.com">Evobilis</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>IE6 Redirection Module</summary>
+    <description>IE6 Redirection Module</description>
+    <notes>IE6 Redirection Module</notes>
+    <authors><author><name>Mahesh Komarraju</name><user>Mahesh</user><email>mahesh.komarraju@evobilis.com</email></author><author><name>Cyrus</name><user>aumanwai</user><email>cyrus.au@evobilis.com</email></author></authors>
+    <date>2013-02-28</date>
+    <time>04:15:09</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Evobilis_IE6Redirect.xml" hash="de98dd0d9d3fd27071335aeeef77d612"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ie6redirect.xml" hash=""/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>5.4.6</max></php></required></dependencies>
+</package>
