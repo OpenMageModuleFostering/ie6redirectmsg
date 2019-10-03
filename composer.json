@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ie6redirectmsg",
+    "name": "OpenMageModuleFostering\/ie6redirectmsg",
     "type": "magento-module",
     "license": "Evobilis",
     "homepage": "",
     "description": "IE6 Redirection Module",
     "authors": [
-    {
-        "name": "Mahesh Komarraju",
-        "email": "mahesh.komarraju@evobilis.com"
-    }
-],
+        {
+            "name": "Mahesh Komarraju",
+            "email": "mahesh.komarraju@evobilis.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
